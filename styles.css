@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  color: rebeccapurple;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    to bottom,
+    rgb(153, 168, 153),
+    rgb(152, 161, 152),
+    rgb(146, 159, 146)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 80%;
+  max-width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  border-right: 0.5rem solid rgba(102, 51, 153, 0.687);
+}
+
+.img {
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.img img {
+  width: 60%;
+  border-radius: 50%;
+  border: 0.3rem solid rebeccapurple;
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.track {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.day {
+  margin-bottom: 0.3rem;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.github {
+  background-color: rgb(62, 54, 54);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.5s;
+}
+
+.github:hover {
+  border: 0.2rem solid black;
+  background-color: transparent;
+  color: black;
+}
